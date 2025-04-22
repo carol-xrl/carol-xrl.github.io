@@ -6,7 +6,7 @@
   --selection-bg: #262a30;
   --selection-color: #eee;
   --blockquote-color: #666;
-  --link-color: #555;
+  --link-color: #d4b8b4;
   --link-hover-color: #222;
   --brand-color: #fff;
   --brand-hover-color: #fff;
@@ -35,7 +35,7 @@
     --selection-bg: #bbb;
     --selection-color: #333;
     --blockquote-color: #bbb;
-    --link-color: #ccc;
+    --link-color: #ab8c83;
     --link-hover-color: #eee;
     --brand-color: #ddd;
     --brand-hover-color: #ddd;
@@ -43,7 +43,7 @@
     --table-row-hover-bg-color: #363636;
     --menu-item-bg-color: #555;
     --theme-color: #121212;
-    --btn-default-bg: #222;
+    --btn-default-bg: #ab8c83;
     --btn-default-color: #ccc;
     --btn-default-border-color: #555;
     --btn-default-hover-bg: #666;
@@ -1379,7 +1379,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ffe5fb;
+    background: #265dff;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -1629,6 +1629,7 @@ pre code {
   border: 1px solid #eee;
   max-width: 120px;
   padding: 2px;
+  border-radius: 50%;
 }
 .site-author-name {
   color: var(--text-color);
